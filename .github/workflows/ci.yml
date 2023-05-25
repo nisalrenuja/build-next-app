@@ -17,3 +17,5 @@ jobs:
         run: npm ci
       - name: Build Next.js app
         run: npm run build
+      - name: Deploy to hosting provider
+        run: npm run deploy
